@@ -1,6 +1,6 @@
 import React from 'react'
 
-class LeftSide extends React.Component {
+class CartItem extends React.Component {
 
     render() {
         return(
@@ -15,4 +15,4 @@ class LeftSide extends React.Component {
     }
 }
 
-export default LeftSide;
+export default CartItem;

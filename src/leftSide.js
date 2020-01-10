@@ -1,6 +1,6 @@
 import React from 'react'
 import slugify from 'slugify';
-import ShoppingItem from './shoppingItem'
+import ShoppingItem from './ShoppingItem'
 
 class LeftSide extends React.Component {
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import LeftSide from './LeftSide'
-import RightSide from './LightSide'
+import RightSide from './RightSide'
 
 // Normalizes string as a slug - a string that is safe to use
 // in both URLs and html attributes

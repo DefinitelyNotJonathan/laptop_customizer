@@ -10,6 +10,7 @@ class RightSide extends React.Component {
       
             return (
                 <CartItem
+                    key={featureHash}
                     feature={feature}
                     featureHash={featureHash}
                     selectedOption={selectedOption}

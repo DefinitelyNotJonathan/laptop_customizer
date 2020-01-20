@@ -11,6 +11,7 @@ class LeftSide extends React.Component {
               const itemHash = slugify(JSON.stringify(item));
               return (
                     <ShoppingItem
+                        key={itemHash}
                         item={item}
                         itemHash={itemHash}
                         feature={feature}
